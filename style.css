@@ -6,6 +6,50 @@
 
 body{
     margin: 0 300px;
-    background-color: #fff;
+    background-color: white;
     font-family: "Poppins", sans-serif;
+}
+header{
+    margin-top: 30px;
+}
+
+.class-logo{
+    font-size: 2rem;
+}
+
+.class-logo p{
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+ul li:hover a{
+    color: #10bc69;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+li{
+    margin-right: 20px;
+}
+
+.btn-get_started{
+    border-radius: 20px;
+    background-color: #10bc69;
+    padding: 10px; 
+    
 }
