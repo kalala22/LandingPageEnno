@@ -60,16 +60,27 @@ li{
 
 
 .class-section{
-    border: red solid 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top:50px;
 }
 
 .image_illustration img{
     width: 600px;
 }
+.image_illustration{
+    animation: moveUpDown 2s infinite alternate ease-in-out;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
 .container-titre h1{ 
     font-size: 50px;
     color: rgb(54, 54, 54);
@@ -110,4 +121,44 @@ li{
 .fa-circle-play{
     color: #10bc69;
     font-size: 2em;
+}
+.box{
+    width: 416px;
+    height: 251px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.sous-section{
+    margin-top: 20px;
+}
+
+.sous-section_disposition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box i{
+    color: #10bc69;
+    font-size: 2em;
+}
+.box h2{
+    margin-top: 15px;
+    color: #444444;
+}
+.box p{
+    margin-top: 10px;
+}
+
+.box:hover{
+    transform: translateY(-10px);
 }
