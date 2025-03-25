@@ -5,7 +5,7 @@
 }
 
 body{
-    margin: 0 300px;
+    margin: 0 400px;
     background-color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -69,4 +69,45 @@ li{
 
 .image_illustration img{
     width: 600px;
+}
+.container-titre h1{ 
+    font-size: 50px;
+    color: rgb(54, 54, 54);
+}
+.btn{
+    border-radius: 20px;
+    background-color: #10bc69;
+    padding: 10px 25px; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-learn_more{
+   border: 0;
+   background: transparent;
+   display: flex;
+   align-items: center;
+   margin-left: 15px;
+   cursor: pointer;
+}
+.btn-learn_more span{
+    font-size: 16x;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.play-video{
+    display: flex;
+}
+
+
+.fa-circle-play{
+    color: #10bc69;
+    font-size: 2em;
 }
