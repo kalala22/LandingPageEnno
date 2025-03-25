@@ -63,7 +63,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:50px;
+    margin-top:80px;
 }
 
 .image_illustration img{
@@ -161,4 +161,30 @@ li{
 
 .box:hover{
     transform: translateY(-10px);
+}
+.about{
+    /* display: flex; */
+}
+
+.container-about{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    width: 600px;
+}
+
+.left h2{
+    font-size: 30px;
+}
+.left ul{
+    display: flex;
+    flex-direction: row;
+    border: red solid 1px;
 }
