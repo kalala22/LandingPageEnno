@@ -44,7 +44,7 @@ ul li a{
     color: rgb(128, 128, 128);
 }
 li{
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .btn-get_started{
@@ -59,3 +59,14 @@ li{
 }
 
 
+.class-section{
+    border: red solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.image_illustration img{
+    width: 600px;
+}
