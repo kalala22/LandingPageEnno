@@ -596,9 +596,20 @@ li {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 .class-list-element ul{
     list-style: none;
+}
+
+.class-list-element ul li{
+    cursor: pointer;
+}
+#pointer-li{
+    color: #10bc69;
+}
+.class-list-element ul li:hover{
+    color: #10bc69;
 }
 .class-ul-list-element{
     display: flex;
@@ -623,5 +634,5 @@ li {
 
 }
 .card{
-    width: 30%;
+    width: 421px;
 }
