@@ -615,6 +615,14 @@ li {
     display: flex;
 }
 
+#pointer-li{
+    color: #10bc69;
+}
+.class-list-element ul li:hover{
+    color: #10bc69;
+    cursor:pointer;
+}
+
 .class-list-element li{
     font-weight: bold;
 }
