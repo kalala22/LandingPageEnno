@@ -512,11 +512,17 @@ li {
 
 .left ul {
     margin: 20px 0px;
+    text-align: justify;
 }
 
 .left ul li {
     list-style: none;
     padding: 10px 0px;
+}
+.left i{
+    color: #10bc69;
+    margin: 5px 5px;
+    padding: 0px 5px;
 }
 .class-evolution-number{
     display: flex;
@@ -532,4 +538,68 @@ li {
 
 .class-evolution-number p{
     color: #444444;
+}
+.class-detail-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.boite{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 416px;
+    height: 416px;
+    padding: 20px;
+    text-align: center;;
+    
+}
+
+.boite p{
+    margin: 20px 0;
+}
+
+.boite h2{
+    margin: 20px 0;
+}
+.class-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #10bc69;
+    color: white;
+}
+
+.container-service {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container-portfolio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.class-list-element{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.class-list-element ul{
+    list-style: none;
+}
+.class-ul-list-element{
+    display: flex;
 }
