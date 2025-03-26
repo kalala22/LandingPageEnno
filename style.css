@@ -603,3 +603,25 @@ li {
 .class-ul-list-element{
     display: flex;
 }
+
+.class-list-element li{
+    font-weight: bold;
+}
+
+
+.class-card-portfolio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+
+}
+.card{
+    width: 30%;
+}
