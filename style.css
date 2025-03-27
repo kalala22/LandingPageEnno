@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
 
 body {
 
@@ -30,7 +27,7 @@ header {
     /* Assure que le header reste visible */
     z-index: 1000;
     /* Le met au-dessus des autres éléments */
-    display: flex;
+
     /* Si tu veux centrer du contenu */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -96,232 +93,16 @@ li {
 }
 
 .image_illustration {
-    animation: moveUpDown 2s infinite alternate ease-in-out;
+    animation: moveUpDown 1s infinite alternate ease-in-out;
 }
 
 @keyframes moveUpDown {
     0% {
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     100% {
-        transform: translateY(-20px);
-    }
-}
-
-.container-titre h1 {
-    font-size: 50px;
-    color: rgb(54, 54, 54);
-}
-
-.btn {
-    border-radius: 20px;
-    background-color: #10bc69;
-    padding: 10px 25px;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.buttons {
-    display: flex;
-    margin-top: 20px;
-}
-
-.btn-learn_more {
-    border: 0;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    cursor: pointer;
-}
-
-.btn-learn_more span {
-    font-size: 16x;
-    font-weight: 300;
-    margin-left: 10px;
-}
-
-.play-video {
-    display: flex;
-}
-
-
-.fa-circle-play {
-    color: #10bc69;
-    font-size: 2em;
-}
-
-.box {
-    width: 416px;
-    height: 251px;
-    background-color: rgb(243, 243, 243);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-
-
-.sous-section {
-    margin-top: 20px;
-}
-
-.sous-section_disposition {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.box i {
-    color: #10bc69;
-    font-size: 2em;
-}
-
-.box h2 {
-    margin-top: 15px;
-    color: #444444;
-}
-
-.box p {
-    margin-top: 10px;
-}
-
-.box:hover {
-    transform: translateY(-10px);
-}
-
-.class-entete h2 {
-    font-size: 50px;
-    position: relative;
-}
-
-#class-shadow {
-    position: relative;
-    display: inline;
-    top: 40px;
-    opacity: 0.05;
-    font-size: 59px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-
-    background-color: white;
-    font-family: "Poppins", sans-serif;
-}
-
-main {
-    margin: 0 300px;
-}
-
-/* header{
-    position: fixed;
-    margin-top: 20px;
-    top: 0;
-    left: 0;
-    border: red solid 1px;
-} */
-
-header {
-    display: flex;
-    position: fixed;
-    /* Fixe le header en haut */
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* Prend toute la largeur */
-    height: 80px;
-    background-color: white;
-    /* Assure que le header reste visible */
-    z-index: 1000;
-    /* Le met au-dessus des autres éléments */
-    display: flex;
-    /* Si tu veux centrer du contenu */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.class-logo {
-    font-size: 2rem;
-}
-
-.class-logo p {
-    font-weight: 600;
-    color: rgb(128, 128, 128);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0px 300px;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    font-size: 14px;
-}
-
-ul li:hover a {
-    color: #10bc69;
-}
-
-ul li a {
-    text-decoration: none;
-    color: rgb(128, 128, 128);
-}
-
-li {
-    margin-left: 20px;
-}
-
-.btn-get_started {
-    border-radius: 20px;
-    background-color: #10bc69;
-    padding: 10px 20px;
-    color: white;
-}
-
-.btn-get_started:hover {
-    cursor: pointer;
-}
-
-
-.class-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 80px;
-}
-
-.image_illustration img {
-    width: 600px;
-}
-
-.image_illustration {
-    animation: moveUpDown 2s infinite alternate ease-in-out;
-}
-
-@keyframes moveUpDown {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-20px);
+        transform: translateX(-20px);
     }
 }
 
@@ -556,7 +337,7 @@ li {
     width: 416px;
     height: 416px;
     padding: 20px;
-    text-align: center;;
+    text-align: center;
     
 }
 
